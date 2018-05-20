@@ -1,0 +1,7 @@
+-- 表：user
+CREATE TABLE user (
+  pid INTEGER  PRIMARY KEY AUTO_INCREMENT,
+  username VARCHAR (16) NOT NULL,
+  age INTEGER NOT NULL,
+  KEY pid
+);
